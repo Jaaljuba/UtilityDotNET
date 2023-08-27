@@ -1,0 +1,245 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SICyA.Utility
+</name>
+</assembly>
+<members>
+<member name="T:SICyA.Utility.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:SICyA.Utility.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:SICyA.Utility.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="M:SICyA.Utility.fn_Cryptografia.Decrypt(System.String,System.String)">
+ <summary>
+ Desencripta un texto.
+ </summary>
+ <param name="cryptedString"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:SICyA.Utility.fn_Cryptografia.Encrypt(System.String,System.String)">
+ <summary>
+ Encripta un texto dado
+ </summary>
+ <param name="originalString"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:SICyA.Utility.fn_SICyA">
+ <summary>
+ Funciones desarrolladas por Javier A. Junca Barreto.
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.GetConnString">
+ <summary>
+ Devuelve el ConnectionString del web.config según el nombre de dicha conexión parametrizada en una llave del mismo archvio.
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.GetAppSettings(System.String)">
+ <summary>
+ Devuelve el valor de una llave del web.config
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.LoadFileExcel(System.String,System.String,System.String)">
+ <summary>
+ Devuelve un DataSet con la informacion cargada desde el archivo Excel.
+ </summary>
+ <returns>DataSet</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.SaveDataTableExcel(System.String,System.Data.DataTable)">
+ <summary>
+ Procedimiento que graba el contenido de un DataTable en un archivo de tipo Excel.
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.SaveErrorLog(System.Exception,System.Boolean)">
+ <summary>
+ Procedimiento que graba las excepciones o los errores ocurridos en un archivo Log y envia la notificacion por correo (Opcional).
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.SaveErrorLog(System.String,System.Boolean)">
+ <summary>
+ Procedimiento que graba las excepciones o los errores ocurridos en un archivo Log y envia la notificacion por correo (Opcional).
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.senderMail(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int16,System.String,System.Boolean,System.Boolean,System.String,System.String)">
+ <summary>
+ Funcion que envia Mail y devuelve el estado del envio.
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.CurrencySeparator(System.String)">
+ <summary>
+ Devuelve el ConnectionString del web.config según el nombre de dicha conexión parametrizada en una llave del mismo archvio.
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.ParameterValueXML(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Devuelve el ConnectionString del web.config según el nombre de dicha conexión parametrizada en una llave del mismo archvio.
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.EncodedASCII(System.String)">
+ <summary>
+ Devuelve el ConnectionString del web.config según el nombre de dicha conexión parametrizada en una llave del mismo archvio.
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.ReplaceAcentos(System.String)">
+ <summary>
+ Devuelve el ConnectionString del web.config según el nombre de dicha conexión parametrizada en una llave del mismo archvio.
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.GUID(System.String)">
+ <summary>
+ Devuelve el ConnectionString del web.config según el nombre de dicha conexión parametrizada en una llave del mismo archvio.
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ [Jaaljuba]	00/00/0000	Created
+ [Jaaljuba]  14/11/2013  Modified
+ [Jaaljuba]  09/09/2015  Modified
+   
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.LastDayMonth(System.String,System.String)">
+ <summary>
+ Devuelve el ConnectionString del web.config según el nombre de dicha conexión parametrizada en una llave del mismo archvio.
+ </summary>
+ <returns>String</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Jaaljuba]	00/00/0000	Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.ReplaceTemplateString(System.String,System.String[])">
+ <sumary>
+ Reemplaza los parametros de un template y los devuelve en una cadana de caracteres.
+ </sumary>
+ <param name="pTemplateName"></param>
+ <param name="pParameters"></param>
+ <returns>String</returns>
+ <remarks></remarks>
+ <history>
+ [Jaaljuba] 13/01/2014 - Created
+ [Jaaljuba] 17/01/2013 - Se cambia el nombre de las variables 
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.ReplaceWords(System.Text.RegularExpressions.Match)">
+ <summary>
+ Remplaza las palabras y las devuelve con un class de CSS de resaltado.
+ </summary>
+ <param name="pStrMatch"></param>
+ <returns>String</returns>
+ <remarks></remarks>
+ <history>
+ [Jaaljuba] 27/01/2014 - Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.LoadTableFromStoreProcedure(System.String,System.Object[])">
+ <summary>
+ Carga y devuelve una tabla a partir de la ejecucion de un store procedure.
+ El store procedure recibe parametros en un ParamArray
+ </summary>
+ <param name="pStoreProcedure"></param>
+ <param name="pParameters"></param>
+ <returns>DataTable</returns>
+ <remarks></remarks>
+ <history>
+ [Jaaljuba] 13/03/2015 - Created
+ </history>
+</member>
+<member name="M:SICyA.Utility.fn_SICyA.LoadTableFromStoreProcedure(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+ <summary>
+ Carga y devuelve una tabla a partir de la ejecucion de un store procedure.
+ El store procedure recibe parametros en un List(Of SqlParameter)
+ </summary>
+ <param name="pStoreProcedure"></param>
+ <param name="pParameters"></param>
+ <returns>DataTable</returns>
+ <remarks></remarks>
+ <history>
+ [Jaaljuba] 13/03/2015 - Created
+ </history>
+</member>
+</members>
+</doc>
