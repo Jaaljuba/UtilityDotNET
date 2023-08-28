@@ -15,3 +15,13 @@ D:\Kode\SICyA\SICyA.Utility\SICyA.Utility\obj\Release\SICyA.Utility.vbproj.Gener
 D:\Kode\SICyA\SICyA.Utility\SICyA.Utility\obj\Release\SICyA.Utility.dll
 D:\Kode\SICyA\SICyA.Utility\SICyA.Utility\obj\Release\SICyA.Utility.xml
 D:\Kode\SICyA\SICyA.Utility\SICyA.Utility\obj\Release\SICyA.Utility.pdb
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\bin\Release\SICyA.Utility.dll
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\bin\Release\SICyA.Utility.pdb
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\bin\Release\SICyA.Utility.xml
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\obj\Release\SICyA.Utility.vbproj.AssemblyReference.cache
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\obj\Release\SICyA.Utility.Resources.resources
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\obj\Release\SICyA.Utility.vbproj.GenerateResource.cache
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\obj\Release\SICyA.Utility.vbproj.CoreCompileInputs.cache
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\obj\Release\SICyA.Utility.dll
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\obj\Release\SICyA.Utility.xml
+C:\Local\Kode\UtilityDotNET\SICyA.Utility\obj\Release\SICyA.Utility.pdb
